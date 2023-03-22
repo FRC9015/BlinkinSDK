@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f710938-f19f-4e92-80d3-a79620d01eb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Build &amp; Deploy Robot for Debugging.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Build &amp; Deploy Robot.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Build Robot.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Clean Build &amp; Deploy Robot for Debugging.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Clean Build &amp; Deploy Robot.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Clean Build Robot.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Clean.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Debug Robot via IP.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Debug Robot via USB.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/frc9015/Blinkin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/frc9015/BlinkinConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -59,9 +39,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.github.frc9015" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.Build &amp; Deploy Robot">
     <list>
       <item itemvalue="Gradle.Build &amp; Deploy Robot" />
@@ -83,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679492601694</updated>
-      <workItem from="1679492603422" duration="2541000" />
+      <workItem from="1679492603422" duration="2905000" />
     </task>
     <servers />
   </component>
