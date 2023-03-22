@@ -4,6 +4,7 @@ plugins {
     id("edu.wpi.first.wpilib.repositories.WPILibRepositoriesPlugin").version("2020.2")
 }
 
+
 group = "com.github.frc9015"
 version = "0.1.0"
 
@@ -23,6 +24,19 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
+}
+
+java {
+    withSourcesJar()
+    withJavadocJar()
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("mavenJava") {
+            from(components["java"])
+        }
+    }
 }
 
 tasks.getByName<Test>("test") {
